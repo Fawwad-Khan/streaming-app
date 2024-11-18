@@ -1,0 +1,54 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body,
+#appContainer {
+  height: 100%;
+  margin: 0px;
+}
+
+#appContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#headerContainer {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  background-color: cornflowerblue;
+  color: white;
+}
+
+#header {
+  padding: 0px 20px;
+}
+
+#videoContainer {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  justify-content: center;
+}
+
+#videoContainer > video {
+  max-width: 100%;
+  height: auto;
+}
+
+#controlsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <div id="appContainer">
+      <div id="headerContainer">
+        <div id="header">
+          <h2>Video Streaming</h2>
+        </div>
+      </div>
+      <div id="videoContainer">
+        <video id="local" autoplay muted></video>
+        <video id="remote" controls autoplay></video>
+      </div>
+      <div id="controlsContainer">
+        <button id="startVideo">Start Video</button>
+        <button id="startStream">Start Stream</button>
+        <button id="stopStream">Stop Streaming</button>
+      </div>
+    </div>
+    <script type="module" src="/src/main2.ts"></script>
+  </body>
+</html>
